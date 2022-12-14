@@ -242,7 +242,7 @@ def _write_hierarchy(motion, file, joint, scale=1.0, rot_order="XYZ", tab=""):
     if len(joint.child_joints) == 0:
         file.write(tab + "\tEnd Site\n")
         file.write(tab + "\t{\n")
-        file.write(tab + "\t\tOFFSET %f %f %f\n" % (0.0, 0.0, 0.0))
+        file.write(tab + "\tOFFSET %f %f %f\n" % (p[0], p[1], p[2]))
         file.write(tab + "\t}\n")
     file.write(tab + "}\n")
     return joint_order
