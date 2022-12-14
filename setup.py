@@ -26,7 +26,8 @@ setup(
         "PyOpenGL-accelerate @ git+https://github.com/mcfletch/pyopengl.git@227f9c66976d9f5dadf62b9a97e6beaec84831ca#subdirectory=accelerate",
         "body_visualizer @ git+https://github.com/nghorbani/body_visualizer.git@be9cf756f8d1daed870d4c7ad1aa5cc3478a546c",
         "human_body_prior @ git+https://github.com/nghorbani/human_body_prior.git@4c246d8a83ce16d3cff9c79dcf04d81fa440a6bc",
-        "opencv-python"
+        "opencv-python",
+        "bpy"
     ],
     packages=find_packages(exclude=["tests"]),
     classifiers=[

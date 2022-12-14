@@ -6,7 +6,6 @@ from human_body_prior.body_model.body_model import BodyModel
 from fairmotion.core import motion as motion_class
 from fairmotion.ops import conversions
 from fairmotion.utils import utils
-from tqdm import tqdm
 
 """
 Structure of npz file in AMASS dataset is as follows.
